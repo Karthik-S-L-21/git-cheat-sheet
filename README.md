@@ -17,7 +17,6 @@ git status
 git add [file-name.txt]
 git add -A
 git commit -m "[commit message]"
-git rm -r [file-name.txt]
 git remote -v
 
 # Branching & Merging
