@@ -36,6 +36,7 @@ git checkout -- [file-name.txt]
 git merge [branch name]
 git merge [source branch] [target branch]
 git stash
+git stash list
 git stash pop
 git stash clear
 
@@ -47,8 +48,6 @@ git push
 git push origin --delete [branch name]
 git pull
 git pull origin [branch name]
-git remote add origin ssh://git@github.com/[username]/[repository-name].git
-git remote set-url origin ssh://git@github.com/[username]/[repository-name].git
 
 # Inspection & Comparison
 
