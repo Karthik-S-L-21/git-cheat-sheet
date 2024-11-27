@@ -55,3 +55,9 @@ git log
 git log --summary
 git log --oneline
 git diff [source branch] [target branch]
+
+# Cherry Picking
+
+git log --oneline
+git checkout [target-branch]
+git cherry-pick [commit-hash]
